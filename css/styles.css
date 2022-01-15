@@ -294,9 +294,23 @@ border: none;
     margin-right: 30px;
 }
 
-/* .project-title-img {
- flex-basis:calc((100% - 90px) / 3)
-} */
+.project-title-img {
+    
+    position: relative;
+}
+
+.foto-text {
+    width: 370px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(47, 48, 58, 0.8);
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 
 
