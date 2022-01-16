@@ -104,7 +104,7 @@ ul {
     display: flex;
     align-items: center;
     fill: #757575;
-    transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-list-one {
     display: flex;
@@ -197,12 +197,12 @@ color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border: none;
-   }
+}
 
 
 .hero-btn:hover,
 .hero-btn:focus {
-   color:  #FFFFFF;
+color:  #FFFFFF;
 }
 .hero-btn {
     background-color: #2196F3;
@@ -289,6 +289,10 @@ border: none;
     padding-bottom: 94px;
 }
 
+.imgwork {
+    min-height: 294px;
+}
+
 .project-title {
     font-size: 36px;
     line-height: 1.17;
@@ -314,12 +318,12 @@ border: none;
 
 .foto-text {
     font-family: Roboto;
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     width: 370px;
     height: 70px;
     display: flex;
@@ -329,7 +333,6 @@ text-transform: uppercase;
     color: #ffffff;
     position: absolute;
     bottom: 0;
-   
 }
 
 
@@ -460,19 +463,19 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+
 }
 
 .clients-list {
     display: flex;
     justify-content: center;
-    
 }
 
 .clients-item {
     display: inline-block;
     content: "";
     cursor: pointer;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .clients-link {
@@ -798,6 +801,7 @@ color: #FFFFFF;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .modal {
     width: 528px;
     height: 581px;
@@ -808,7 +812,7 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 position: absolute;
-
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close {
@@ -823,7 +827,7 @@ position: absolute;
     position: absolute;
     top: 8px;
     right: 8px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .is-hidden {
