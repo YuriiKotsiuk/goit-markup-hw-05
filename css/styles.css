@@ -369,6 +369,7 @@ text-transform: uppercase;
     align-items: center;
     border-radius: 50px;
     color: #AFB1B8;
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .worker-social-link:hover,
@@ -380,10 +381,7 @@ text-transform: uppercase;
 
 .worker-social-icon {
     fill: currentColor;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
-    
 
 
 
@@ -400,9 +398,8 @@ text-transform: uppercase;
 .worker-social-item {
     content: "";
     fill: #AFB1B8;
-    
 }
- 
+
 
 .about-team {
     background: #FFFFFF;
@@ -414,7 +411,7 @@ text-transform: uppercase;
 
 
 .about-team:not(:last-child) {
- margin-right: 30px;
+margin-right: 30px;
 }
 
 .work-title {
@@ -475,7 +472,7 @@ color: #212121;
     display: inline-block;
     content: "";
     cursor: pointer;
-    
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link {
@@ -491,6 +488,7 @@ color: #212121;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -508,7 +506,6 @@ color: #212121;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
